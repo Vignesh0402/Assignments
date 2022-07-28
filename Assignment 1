@@ -1,1 +1,61 @@
-http://localhost:8888/notebooks/Python_Basics_Assignment1.ipynb
+Q1.#"In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators."
+
+* is a Expression
+'hello' is a value
+-87.8 is a value
+- is a Expression
+/ is a Expression
++ is a Expression
+6 is a value
+
+Q2. What is the difference between string and variable?
+Strings can be either written in single quotes or double quotes
+Variables is used to store value and arguments to a paramter in the program.Variables used to hold values in it
+
+Q3.#Describe three different data types
+
+Integer : It is used to store values in numerical format
+Float : It is used to store values in decimal number format.Example 52.6
+List : List is used to store multiple data into it like string, int,float etc. every data types can be stored inside a list.
+
+Q4. #What is an expression made up of? What do all expressions do?
+
+Expressions are made up of mathematical operators like addtion(+),subtraction(-),multiplication(*) and division(/)
+
+
+Q5. #This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+
+Expressions are made up of operands and operators 
+Statments are like a string which we want to display in the output window using print function.
+
+#Q6. After running the following code, what does the variable bacon contain?
+
+bacon = 22
+
+bacon + 1
+
+#Q7.What should the values of the following two terms be?
+
+'spam' + 'spamspam'
+
+'spam' * 3
+
+both statements 'spam' + 'spamspam','spam' * 3 prints same output
+
+#Q8.Why is eggs a valid variable name while 100 is invalid?
+
+Egg a valid variable name because a variable name must start either with a letter or underscore charaters.
+100 is invalid because the variable name should not start only with a numeric values
+
+Q9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+To get integer int() function is used.
+To get floating-point values float() function is used.
+To get string literals str() function is used.
+
+Q10. Why does this expression cause an error? How can you fix it?
+
+'I have eaten' + 99 + 'burritos' 
+
+It cause an error because 'I have eaten' and 'burritos' are strings and 99 is a value, it is only possible to concatenate a string values not a string and numeric expression if converting 99 into sting using str() it is possible to run a code without error. 
+
+
