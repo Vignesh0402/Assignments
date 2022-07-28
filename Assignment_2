@@ -1,0 +1,152 @@
+Q1.What are the two values of the Boolean data type? How do you write them?
+
+The two values of the boolean data types are true and false.As python is case sensitive we have to mention those data types like True and False   
+
+Q2. What are the three different types of Boolean operators?
+The three boolean operators are AND,OR,NOT and this performs boolean opeation and give output either True or False
+
+Q3.Make a list of each Boolean operators truth tables (i.e. every possible combination of Boolean
+values for the operator and what it evaluate .
+Truth table for AND operator:(True =1 and False = 0)
+        A     B     OUTPUT
+        0     0       0
+        0     1       0
+        1     0       0
+        1     1       1
+                                                       
+Truth  table for OR operator:
+        A     B     OUTPUT                                               
+        0     0       0
+        0     1       1
+        1     0       1
+        1     1       1                                               
+                                      
+Truth table for NOT operator
+          A   OUTPUT    
+          0     1
+          1     0                                             
+
+Q4. What are the values of the following expressions?
+print ((5>4) and (3==5))
+print (not(5>4))
+print ((5>4) or (3 == 5))
+print (not(5>4) or (3==5))
+print ((True and True) and (True == False))
+print ((not False) or (not True))
+
+False
+False
+True
+False
+False
+True
+
+
+Q5. What are the six comparison operators?
+The comparison operators are <, >, <=, >=, == and !=
+
+Q6. How do you tell the difference between the equal to and assignment operators?Describe a
+condition and when you would use one.
+
+Equal to operator is used to assign values to a variable 
+== is the equal to operator that compares two values and evaluates to a Boolean operation.
+
+
+Q7. Identify the three blocks in this code:
+spam = 0
+if spam == 10:
+    print("eggs")
+if spam > 5:
+    print("bacon")
+else:
+    print("ham")
+    print("spam")
+    print("spam")
+ham
+spam
+spam
+
+
+Q8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints 
+Greetings! if anything else is stored in spam.
+
+spam = int(input("Enter a number "))
+if spam == 1:
+    print("Hello")
+elif spam == 2:
+    print("Howdy")
+else:
+    print("Greetings!")
+
+Q9.If your programme is stuck in an endless loop, what keys you’ll press?
+
+We have to press ctrl+c to stop the loop
+
+Q10. How can you tell the difference between break and continue?
+
+Break : The 'break 'stop the continuation of the loop.t early terminates the loop.It eliminates the execution of remaining iteration of loop.
+Continue : The 'continue' does not stop the continuation of loop and it stops the current.It causes the early execution of the next iteration of the mentioned loop. It will terminate only the current iteration of loop.
+
+Q11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+
+print("For i in range(10)")
+for i in range(10):
+    print(i)
+    
+print("For i in range(0,10)")    
+for i in range(0,10):
+    print(i)
+
+print("For i in range(0,10,1)")
+for i in range(0,10,1):
+    print(i)
+
+Q12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+
+print("Using for loop")
+for i in range(1,11):
+    print(i)
+print("Using while loop")
+a = 1
+while a <= 10:
+    print(a)
+    a +=1
+For i in range(10)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+For i in range(0,10)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+For i in range(0,10,1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+
+
+Q13. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
+
+We can call the function as spam.bacon()
