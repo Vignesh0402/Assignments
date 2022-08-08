@@ -1,1 +1,76 @@
+Q1. Why are functions advantageous to have in your programs?
+    Functions are used to reduce the code reusability in a program and it is very usefull in defining and calling a set of function when the function is in need.
+Example :
+def square(i):
+  i = 1
+  square = i * i
+  print("The square of the number is :",square)
+def cube(n):
+  n = 1
+  cube_value = n * n * n
+  print("THE cube value of the number is :",cube_value)
+ 
+If we need square value of a number we can call square(i) function (where 'i' denotes the number) and we can find the square value of that number.
+If we need cube value of a number we can call cube(n) function (where 'n' denotes the number) and we can find the cube value of that number.
 
+
+Q2. When does the code in a function run: when it's specified or when it's called?
+    Code function will run only when the function is called and it is not called when it is specified.
+    
+    
+Q3. What statement creates a function?
+    def statement is used to create a function.
+ 
+ 
+Q4. What is the difference between a function and a function call?
+    Function : Function is used to define the specific functionality of the block of the code.
+    Function call : Function call means it is used to the call the function which is created for specific function if the function is needed.
+ Example :
+    def square(i): # defining a function
+        i = 1
+        square = i * i
+        print("The square of the number is :",square)
+        
+    square(8) # calling a function
+
+
+Q5. How many global scopes are there in a Python program? How many local scopes?
+        Only one global scope is there in a Python program and one local scope is created when it is called.
+   
+   
+Q6. What happens to variables in a local scope when the function call returns?
+All variables in the local scopes are destroyed when the function call returns.
+
+
+Q7. What is the concept of a return value? Is it possible to have a return value in an expression?
+Return value is a value that function used to evaluate.Yes, it is possible to have a return value in an expression.
+
+
+Q8. If a function does not have a return statement, what is the return value of a call to that function?
+    If a function does not contain a return statement it returns the value as None in output terminal.
+    
+    
+Q9. How do you make a function variable refer to the global variable?
+    To refer a function variable as global variable we use global keyword to declare which variables are global.
+
+
+Q10. What is the data type of None?
+    The data type of None is NoneType.
+    
+    
+Q11. What does the sentence import areallyourpetsnamederic do?
+    This sentence used to import module related to areallyourpetsnamederic into the program.
+    
+    
+Q12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+    The function can be called using spam.bacon().
+    
+ 
+Q13. What can you do to save a programme from crashing if it encounters an error?
+    When it encounters an error, the control is passed to the except block, skipping the code in between. 
+    We have moved our code inside a try and except statement. Try running the program and it should throw an error message instead of crashing the program.
+
+
+Q14. What is the purpose of the try clause? What is the purpose of the except clause?
+    The try block is used to test a block of code for errors.
+    The code that executes if an error happens goes in the except clause.
