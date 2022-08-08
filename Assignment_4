@@ -1,0 +1,115 @@
+Q1. What exactly is []?
+    It is used to define a empty list in a program.The list which contains no items.
+    
+    
+Q2. In a list of values stored in a variable called spam, how would you assign the value 'hello' as the third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+Let's pretend the spam includes the list ['a', 'b', 'c', 'd'] for the next three queries.
+    spam = [2, 4, 6, 8, 10]
+    spam[2] = "hello"
+    spam
+  
+Output : [2, 4, 'hello', 8, 10]
+    
+
+Q3. What is the value of spam[int(int('3' * 2) / 11)]?
+
+    spam = ['a', 'b','c','d']
+    spam[int(int('3' * 2) / 11)] # spam[int(33/11)] = spam[3]
+    
+Output : 'd'
+
+Q4. What is the value of spam[-1]?
+
+
+    spam = ['a', 'b','c','d']
+    spam[-1]
+    
+Output : 'd'
+    
+  
+Q5. What is the value of spam[:2]?
+
+    spam = ['a', 'b','c','d']
+    spam[:2]
+    
+Output : ['a', 'b']
+    
+   
+Let's pretend bacon has the list [3.14, 'cat,' 11, 'cat,' True] for the next three questions.
+Q6. What is the value of bacon.index('cat')?
+    bacon = [3.14, 'cat', 11, 'cat', True]
+    bacon.index('cat')
+    
+Output : 1
+    
+    
+Q7. How does bacon.append(99) change the look of the list value in bacon?
+    bacon = [3.14, 'cat', 11, 'cat', True]
+    bacon.append(99)
+    
+Output :[3.14, 'cat', 11, 'cat', True,99]
+    
+   
+Q8. How does bacon.remove('cat') change the look of the list in bacon?
+
+    bacon = [3.14, 'cat', 11, 'cat', True]
+    bacon.remove('cat')
+    bacon
+    
+Output :[3.14, 11, True, 99]
+    
+    
+Q9. What are the list concatenation and list replication operators?
+    + is used for list concatenation and * is used for replicatoin operator.
+    
+
+Q10. What is difference between the list methods append() and insert()?
+    append() is a function used to add values at the end of a list, and insert() can add the item anywhere in the list using index.
+    
+Q11. What are the two methods for removing items from a list?
+    remove(item) is used to remove first occurance of a list
+
+    bacon = [3.14, 'cat', 11, 'cat', True]
+    bacon.remove('cat')
+    bacon
+    
+Output :[3.14, 11, 'cat', True]
+    Here 'cat'
+    
+pop() - Remove and returns item at index if index is not specified it removes last item from the list defaultly.
+    bacon = [3.14, 'cat', 11, 'cat', True]
+    bacon.pop()
+    bacon
+    
+Output : [3.14, 'cat', 11, 'cat']
+
+Q12. Describe how list values and string values are identical.
+    The differences between them are:
+    1.Lists are mutable but Strings are immutable. 
+    2.Elements of a list can be of different types whereas a String only contains characters that are all of String type.
+    
+Q13. What's the difference between tuples and lists?
+    Lists : are mutable - they can have values added, removed, or changed. lists can be expressed in square brackets, [ ]. Values inside list can be added,removed,etc
+    Tuples : are immutable; they cannot be changed at all. Tuples are written using parentheses, ( ). Values inside tuples cannot be changed.
+  
+
+Q14. How do you type a tuple value that only contains the integer 42?
+    tuple = (42,)
+    tuple
+    
+Output : (42,)
+
+Q15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+    bacon = [3.14, 'cat', 11, 'cat', True]
+    t = tuple(bacon)
+    
+Output : (3.14, 'cat', 11, 'cat', True)
+
+Q16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
+    They contains referance to list values.
+
+Q17. How do you distinguish between copy.copy() and copy.deepcopy()?
+      copy() create reference to original object. If you change copied object - you change the original object. 
+      deepcopy() creates new object and does real copying of original object to new one. Changing new deepcopied object doesn't affect original object.
+      
+      
