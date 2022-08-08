@@ -1,0 +1,16 @@
+Q1. What are escape characters, and how do you use them?
+    the backslash "\" is a special character, also called the "escape" character. It is used in representing certain whitespace characters: 
+    "\t" is a tab, "\n" is a newline, and "\r" is a carriage return. Conversely, prefixing a special character with "\" turns it into an ordinary character.
+    
+Q2. What do the escape characters n and t stand for?
+    "\n" is a carriage return is used to represent a newline.
+    "\t" is a tab, it is used to represent ceratin whitespace characters.
+    
+Q3. What is the way to include backslash characters in a string?
+    We have to use two backslash for a string is used.
+    
+Q4. The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the word Howl's not escaped a problem?
+    The single quote in Howl's is correct because we have mentioned the above string inside a double quoted string.So, single quote inside that string is not considered.
+    
+Q5. How do you write a string of newlines if you don't want to use the n character?
+    Just use \n ; Python automatically translates that to the proper newline character for your platform.
