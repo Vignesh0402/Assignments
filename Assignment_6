@@ -14,3 +14,42 @@ Q4. The string "Howl's Moving Castle" is a correct value. Why isn't the single q
     
 Q5. How do you write a string of newlines if you don't want to use the n character?
     Just use \n ; Python automatically translates that to the proper newline character for your platform.
+
+Q6. What are the values of the given expressions?
+    'Hello, world!'[1] 
+Output : 'e'
+    
+    'Hello, world!'[0:5]
+Output : 'Hello'
+    
+    'Hello, world!'[:5]
+Output : 'Hello'
+
+    'Hello, world!'[3:]
+Output : 'lo,world'
+
+Q7. What are the values of the following expressions?
+    'Hello'.upper()
+Output : 'HELLO'
+    'Hello'.upper().isupper()
+Output : True
+    'Hello'.upper().lower()
+Output : 'hello'
+
+Q8. What are the values of the following expressions?
+    'Remember, remember, the fifth of July.'.split()
+Output : ['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']
+    '-'.join('There can only one.'.split())
+Output : 'There-can-only-one.'
+
+Q9. What are the methods for right-justifying, left-justifying, and centering a string?
+    right-justifying is done using rjust()
+    left--justifying is done using ljust()
+    centering is done using center()
+    
+Q10. What is the best way to remove whitespace characters from the start or end?
+    The python string strip() method is part of the build-in function available in python.
+This will remove whitespace characters from the start and end of the original string.
+    
+
+
