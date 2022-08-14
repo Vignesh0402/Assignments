@@ -1,0 +1,38 @@
+Q1. To what does a relative path refer?
+    path. relpath() method in Python is used to get a relative filepath to the given path either from the current working directory or from the given directory.
+    
+    
+Q2. What does an absolute path start with your operating system?
+    An absolute path is a path that contains the entire path to the file or directory that we need to access.
+    This path will begin at the home directory of our computer and will end with the file or directory that we wish to access. Absolute paths ensure that Python can find the exact file directory on our computer.
+
+
+Q3. What do the functions os.getcwd() and os.chdir() do?
+    os.getcwd() method to extract the current working directory.We use temperary directory in the path variable as a string.
+    os.chdir(path) method to change the current working directory.
+    
+    
+Q4. What are the . and .. folders?
+    The . is the current directory, and .. signifies the parent directory.
+    
+
+Q5. In C:\bacon\eggs\spam.txt, which part is the dir name, and which part is the base name?
+    C:\bacon\eggs is the dir name, and while spam.txt is the base name.
+    
+    
+Q6. What are the three “mode” arguments that can be passed to the open() function?
+    wb: Opens a write-only file in binary mode.
+    w+: Opens a file for writing and reading.
+    wb+: Opens a file for writing and reading in binary mode.
+    
+    
+Q7. What happens if an existing file is opened in write mode?
+    When "w" is specified, it creates an empty file for output operations.If the same file name already exist, its contents are discarded and the file is treated as a new empty file.
+
+Q8. How do you tell the difference between read() and readlines()?
+    The main difference is that read() will read the whole file at once and then print out the first characters that take up as many bytes as you specify in the parenthesis versus 
+the readline() that will read and print out only the first characters that take up as many bytes as you specify in the parenthesis.
+    
+Q9. What data structure does a shelf value resemble?
+     A shelf value resembles a dictionary value; it hs a keys and values along with keys() and values() methods that work similarly to the dictionary methods of the same names.
+
