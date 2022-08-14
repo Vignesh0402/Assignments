@@ -8,7 +8,7 @@ Q2. What function is used to rename files??
     
     
 Q3. What is the difference between the delete functions in the send2trash and shutil modules?
-    The send2trash functions will move a file i=or folder to the recycle bin, while shutil functions will permanently delete files and folders.
+    The send2trash functions will move a file in folder to the recycle bin, while shutil functions will permanently delete files and folders.
     
     
 Q4.ZipFile objects have a close() method just like File objects’ close() method. What ZipFile method is equivalent to File objects’ open() method?
