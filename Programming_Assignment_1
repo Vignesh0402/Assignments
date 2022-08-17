@@ -1,0 +1,30 @@
+Q1.	Write a Python program to print "Hello Python"?
+    print("Hello Python")
+    
+    
+Q2.	Write a Python program to do arithmetical operations addition and division.?
+a, b = int(input("Enter a number for a :")),int(input("Enteer a number for b:"))       
+print("Addition of two numbers are :", a+b)  
+print("Division of two numbers are :", a/b)
+    
+    
+Q3.	Write a Python program to find the area of a triangle?
+    b = int(input("Enter the base value : "))
+    h = int(input("Enter the height value :"))
+    area = int(0.5 * b * h)
+    print(area)
+    
+    
+Q4.	Write a Python program to swap two variables?
+    x = int(input("Enter a value for x"))
+    y = int(input("Enter a value for y"))
+    x, y = y, x
+    print("x =", x)
+    print("y =", y)
+
+
+Q5.	Write a Python program to generate a random number?
+    To import a random number we use to import random, this module is used to generate random numbers.
+    
+    import random
+    print(random.randint(1,10))
