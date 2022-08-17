@@ -16,12 +16,19 @@ Q3.	Write a Python program to find the area of a triangle?
     
     
 Q4.	Write a Python program to swap two variables?
-    x = int(input("Enter a value for x"))
-    y = int(input("Enter a value for y"))
-    x, y = y, x
-    print("x =", x)
-    print("y =", y)
-
+Coding:
+  x = 10
+  y = 50
+  
+  temp = x
+  x = y
+  y = temp
+  
+  print("Value of x:", x)
+  print("Value of y:", y)
+Output:
+    Value of x: 50
+    Value of y: 10
 
 Q5.	Write a Python program to generate a random number?
     To import a random number we use to import random, this module is used to generate random numbers.
