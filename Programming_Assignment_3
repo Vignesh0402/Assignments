@@ -1,0 +1,91 @@
+Q1.	Write a Python Program to Check if a Number is Positive, Negative or Zero?
+Coding:
+    n = int(input("Enter a number : "))
+    if n > 1 :
+      print("The Entered number is poistive.")
+    elif n < 0:
+      print("The Entered number is Negative.")
+    else :
+      print("The Entered number is zero.")
+Output:
+    Enter a number : 0
+    The Entered number is zero.
+    
+    
+Q2.	Write a Python Program to Check if a Number is Odd or Even?
+Coding:
+    n = int(input("Enter a number : "))
+    if n %2 == 0:
+      print("The number is even.")
+    else :
+      print("The number is odd.")'
+Output:
+    Enter a number : 24
+    The number is even.
+    
+    
+Q3.	Write a Python Program to Check Leap Year?
+Coding:
+    y = int(input("Enter a year :"))
+    if (y%4 == 0 and y %100 !=0) or (y%400 ==0):
+      print(y,"is Leap Year.")
+    else:
+      print(y,"is not a leap year.")
+output:
+    Enter a year :2015
+    2015 is not a leap year.
+    
+    
+Q4.	Write a Python Program to Check Prime Number?
+Coding:
+    n = 11
+    if n > 1:
+        for i in range(2, int(n/2)+1):
+            if (n % i) == 0:
+                print(n, "is not a prime number.")
+                break
+        else:
+            print(n, "is a prime number.")
+    else:
+       print(n, "is not a prime number.")
+Output :
+    11 is a prime number.
+       
+Q5.	Write a Python Program to Print all Prime Numbers in an Interval of 1-10000?
+Coding:
+    for num in range(1, 10001):
+        if num > 1:
+        for i in range(2, num):
+            if (num % i) == 0:
+                break
+        else:
+            print(num)
+Output:
+        2
+        3
+        5
+        7
+        11
+        13
+        17
+        19
+        23
+        29
+        31
+        37
+        41
+        43
+        47
+        53
+        59
+        .
+        .
+        .
+        .
+        9929
+        9931
+        9941
+        9949
+        9967
+        9973
+
